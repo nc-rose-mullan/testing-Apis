@@ -4,7 +4,7 @@ namespace TestingAPIsDemo.Models
 {
     public class JokeRepository
     {
-        public Joke GetJoke(int id)
+        public Joke FindJokeById(int id)
         {
             var jsonJokes = File.ReadAllText("Resources\\Jokes.json");
             var jokes = JsonSerializer.Deserialize<List<Joke>>(jsonJokes);
