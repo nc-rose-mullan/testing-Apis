@@ -1,0 +1,17 @@
+[
+  {
+    "Id": 1,
+    "Prompt": "What do you call a fish with no eyes?",
+    "Response": "A fsh"
+  },
+  {
+    "Id": 2,
+    "Prompt": "Why did the developer go to the opticians?",
+    "Response": "So they could C#"
+  },
+  {
+    "Id": 3,
+    "Prompt": "Why are pirates called pirates?",
+    "Response": "Cuz they ARRRRR!"
+  }
+]
