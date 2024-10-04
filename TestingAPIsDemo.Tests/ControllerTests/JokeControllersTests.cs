@@ -9,7 +9,7 @@
         }
 
         [Test]
-        public void Index_ShouldReturnAllJokes()
+        public void GetJokeById_ShouldReturnCorrectJoke()
         {
             // ARRANGE
 
