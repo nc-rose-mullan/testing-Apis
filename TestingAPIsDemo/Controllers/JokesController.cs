@@ -3,7 +3,6 @@ using TestingAPIsDemo.Services;
 
 namespace TestingAPIsDemo.Controllers
 {
-    [ApiController]
     [Route("[controller]")]
     public class JokesController : ControllerBase
     {
@@ -12,8 +11,8 @@ namespace TestingAPIsDemo.Controllers
         {
             _gameService = gameService;
         }
-        [HttpGet]
-        public Joke Index(int id)
+        [HttpGet("{id}")]
+        public Joke GetJokeById(int id)
         {
             return _gameService.GetJokeById(id);
         }
