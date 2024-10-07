@@ -6,12 +6,12 @@ namespace TestingAPIsDemo.Controllers
     [Route("[controller]")]
     public class JokesController : ControllerBase
     {
-        private readonly JokeService _gameService = new JokeService();
+        private readonly JokeService _jokeService = new JokeService();
 
         [HttpGet("{id}")]
         public Joke GetJokeById(int id)
         {
-            return _gameService.GetJokeById(id);
+            return _jokeService.GetJokeById(id);
         }
     }
 }
