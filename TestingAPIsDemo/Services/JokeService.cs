@@ -4,14 +4,10 @@ namespace TestingAPIsDemo.Services
 {
     public class JokeService
     {
-        private readonly JokeRepository _jokeRepository;
-        public JokeService(JokeRepository jokeRepository)
-        {
-            _jokeRepository = jokeRepository;
-        }
+        private readonly JokeRepository _jokeRepository = new JokeRepository();
         public Joke GetJokeById(int id)
         {
-            return _jokeRepository.GetJoke(id);
+            return _jokeRepository.FindJokeById(id);
         }
     }
 }
