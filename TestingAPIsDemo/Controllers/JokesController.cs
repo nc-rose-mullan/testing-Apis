@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TestingAPIsDemo.Models;
 using TestingAPIsDemo.Services;
 
 namespace TestingAPIsDemo.Controllers

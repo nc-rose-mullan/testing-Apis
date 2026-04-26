@@ -1,5 +1,5 @@
 using TestingAPIsDemo.Services;
-using TestingAPIsDemo.Models;
+using TestingAPIsDemo.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 

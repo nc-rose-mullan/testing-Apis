@@ -1,6 +1,7 @@
 ﻿using System.Text.Json;
+using TestingAPIsDemo.Models;
 
-namespace TestingAPIsDemo.Models
+namespace TestingAPIsDemo.Repositories
 {
     public class JokeRepository
     {

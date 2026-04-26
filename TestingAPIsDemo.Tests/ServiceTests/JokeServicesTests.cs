@@ -1,5 +1,5 @@
 using Moq;
-using TestingAPIsDemo.Models;
+using TestingAPIsDemo.Repositories;
 using TestingAPIsDemo.Services;
 
 internal class JokeServicesTests

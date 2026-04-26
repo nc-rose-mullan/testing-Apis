@@ -1,4 +1,4 @@
-namespace TestingAPIsDemo
+namespace TestingAPIsDemo.Models
 {
     public class Joke
     {
