@@ -12,7 +12,8 @@ namespace TestingAPIsDemo.Controllers
         [HttpGet("{id}")]
         public IActionResult GetJokeById(int id)
         {
-            return Ok(_jokeService.GetJokeById(id));
+            Joke joke = _jokeService.GetJokeById(id);
+            return Ok(joke);
         }
     }
 }
