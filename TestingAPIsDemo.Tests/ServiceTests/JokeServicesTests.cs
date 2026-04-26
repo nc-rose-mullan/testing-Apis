@@ -1,21 +1,26 @@
-namespace TestingAPIsDemo.Tests.ServiceTests
+using Moq;
+using TestingAPIsDemo.Models;
+using TestingAPIsDemo.Services;
+
+internal class JokeServicesTests
 {
-    public class JokeServicesTests
+    private Mock<JokeRepository> _jokeRepositoryMock;
+    private JokeService _jokeService;
+
+    [SetUp]
+    public void Setup()
     {
-        [SetUp]
-        public void Setup()
-        {
+        _jokeRepositoryMock = new Mock<JokeRepository>();
+        _jokeService = new JokeService(_jokeRepositoryMock.Object);
+    }
 
-        }
-        [Test]
-        public void GetJokeById_ShouldReturnCorrectJoke()
-        {
-            // ARRANGE
+    [Test]
+    public void GetJokeById_ShouldReturnCorrectJoke()
+    {
+        // ARRANGE
 
-            // ACT
+        // ACT
 
-            // ASSERT
-
-        }
+        // ASSERT
     }
 }
