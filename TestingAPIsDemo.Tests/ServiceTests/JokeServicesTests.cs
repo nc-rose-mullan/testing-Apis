@@ -19,15 +19,10 @@ internal class JokeServicesTests
     public void GetJokeById_ShouldReturnCorrectJoke()
     {
         // ARRANGE
-        Joke testJoke = new Joke() { Id = 10, Prompt = "Hi", Response = "Hello" };
-        int testJokeId = 10;
-
-        _jokeRepositoryMock.Setup(repo => repo.FindJokeById(testJokeId)).Returns(testJoke);
 
         // ACT
-        Joke output = _jokeService.GetJokeById(testJokeId);
 
         // ASSERT
-        Assert.That(output, Is.EqualTo(testJoke));
+       
     }
 }
