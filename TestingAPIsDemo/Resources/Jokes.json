@@ -1,17 +1,52 @@
 [
   {
     "Id": 1,
-    "Prompt": "What do you call a fish with no eyes?",
-    "Response": "A fsh"
+    "Prompt": "Why don't scientists trust atoms?",
+    "Response": "Because they make up everything!"
   },
   {
     "Id": 2,
-    "Prompt": "Why did the developer go to the opticians?",
-    "Response": "So they could C#"
+    "Prompt": "Why do cows wear bells?",
+    "Response": "Because their horns don't work!"
   },
   {
     "Id": 3,
-    "Prompt": "Why are pirates called pirates?",
-    "Response": "Cuz they ARRRRR!"
+    "Prompt": "Why did the scarecrow win an award?",
+    "Response": "Because he was outstanding in his field!"
+  },
+  {
+    "Id": 4,
+    "Prompt": "What do you call cheese that isn't yours?",
+    "Response": "Nacho cheese!"
+  },
+  {
+    "Id": 5,
+    "Prompt": "Why did the golfer bring an extra pair of trousers?",
+    "Response": "In case he got a hole in one!"
+  },
+  {
+    "Id": 6,
+    "Prompt": "What do you call a sleeping dinosaur?",
+    "Response": "A dino-snore!"
+  },
+  {
+    "Id": 7,
+    "Prompt": "Why did the bicycle fall over?",
+    "Response": "Because it was two-tired!"
+  },
+  {
+    "Id": 8,
+    "Prompt": "What did the ocean say to the beach?",
+    "Response": "Nothing, it just waved!"
+  },
+  {
+    "Id": 9,
+    "Prompt": "Why don't eggs tell jokes?",
+    "Response": "They'd crack each other up!"
+  },
+  {
+    "Id": 10,
+    "Prompt": "Why did the tomato turn red?",
+    "Response": "Because it saw the salad dressing!"
   }
 ]
