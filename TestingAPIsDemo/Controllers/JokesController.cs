@@ -10,9 +10,9 @@ namespace TestingAPIsDemo.Controllers
         private readonly JokeService _jokeService = new JokeService();
 
         [HttpGet("{id}")]
-        public Joke GetJokeById(int id)
+        public IActionResult GetJokeById(int id)
         {
-            return _jokeService.GetJokeById(id);
+            return Ok(_jokeService.GetJokeById(id));
         }
     }
 }
