@@ -1,7 +1,6 @@
 using Moq;
 using TestingAPIsDemo.Repositories;
 using TestingAPIsDemo.Services;
-using TestingAPIsDemo.Models;
 
 internal class JokeServicesTests
 {
